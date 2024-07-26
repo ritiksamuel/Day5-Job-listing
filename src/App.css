@@ -1,0 +1,37 @@
+.App {
+  text-align: center;
+}
+
+.job-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.job-box {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  margin: 10px;
+  width: 200px;
+  text-align: left;
+}
+/* Add this to your existing App.css */
+
+.view-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+.view-button:hover {
+  background-color: #0056b3;
+}
